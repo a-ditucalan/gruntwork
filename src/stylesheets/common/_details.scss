@@ -1,0 +1,163 @@
+.details {
+  &__section {
+    text-align: center;
+  }
+
+  &__image {
+    margin: 0 auto;
+    max-width: 100%;
+  }
+
+  &__description {
+    padding-top: 21px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 710px;
+    // max-width: 490px;
+
+    font-family: $font-opensans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: .39px;
+    //     letter-spacing: .39px;
+    // // letter-spacing: .45px;
+    line-height: 1.8;
+    color: $black;
+    text-align: center;
+
+    &--gray {
+      font-weight: 600;
+      letter-spacing: .39px;
+
+      opacity: .7;
+    }
+
+    &--black {
+      font-size: 16px;
+      font-weight: normal;
+      letter-spacing: .45px;
+
+      opacity: 1;
+    }
+  }
+
+  &__title {
+    padding-top: 9px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 341px;
+
+    font-family: $font-opensans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: .98px;
+    line-height: 1.14;
+    color: $black;
+    text-align: center;
+
+    + .details__description {
+      padding-top: 0;
+    }
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+
+    list-style: none;
+
+    &--holder {
+      padding-top: 15px;
+    }
+
+    &--item {
+      display: flex;
+      justify-content: center;
+      margin-right: 20px;
+
+      &__title {
+        margin-right: 3px;
+
+        font-family: $font-opensans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: bold;
+        letter-spacing: .39px;
+        line-height: normal;
+        color: rgba(0, 0, 0, .6);
+      }
+
+      &__description {
+        font-family: $font-opensans;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: .39px;
+        color: rgba(0, 0, 0, .6);
+
+        &--blue {
+          position: relative;
+          top: -1px;
+
+          color: $brand-color;
+        }
+      }
+
+      &__icon {
+        position: relative;
+        top: -8px;
+        // position: relative;
+        // top: 4px;
+        // height: 100%;
+
+        padding-right: 5px;
+      }
+    }
+  }
+}
+
+@include respond-to(sm-down) {
+  .details {
+    &__list--item__title, &__list--item__description {
+      font-size: 12px;
+    }
+
+    &__title {
+      padding-top: 12px;
+
+      font-size: 30px;
+
+      & + .details__description {
+        padding-top: 10px;
+      }
+    }
+
+    &__text--wrapper {
+      margin-bottom: 20px;
+    }
+
+    &__description {
+      font-size: 14px;
+      letter-spacing: .39px;
+      line-height: 1.43;
+    }
+
+    &__list {
+      justify-content: space-around;
+
+      &--item {
+        margin-right: 0;
+        margin-bottom: -8px;
+
+        &__description {
+          &--blue {
+            top: 0;
+          }
+        }
+      }
+    }
+  }
+}

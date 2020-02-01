@@ -1,0 +1,16 @@
+<svg width="13" height="15" viewBox="0 0 13 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icn-compliance">
+<path id="Polygon" fill-rule="evenodd" clip-rule="evenodd" d="M6.5 1L12.1292 4.25V10.75L6.5 14L0.870835 10.75V4.25L6.5 1Z" stroke="url(#paint0_linear)" stroke-width="1.2"/>
+<path id="Path 3" d="M4.0625 7.90625L5.6875 9.125L8.9375 5.875" stroke="url(#paint1_linear)" stroke-width="1.2" stroke-linecap="round"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="20.5497" y1="7.5" x2="7.54968" y2="-7.59935" gradientUnits="userSpaceOnUse">
+<stop stop-color="#07A6FD"/>
+<stop offset="1" stop-color="#1AE5DD"/>
+</linearGradient>
+<linearGradient id="paint1_linear" x1="11.7686" y1="7.5" x2="8.93081" y2="2.55587" gradientUnits="userSpaceOnUse">
+<stop stop-color="#07A6FD"/>
+<stop offset="1" stop-color="#1AE5DD"/>
+</linearGradient>
+</defs>
+</svg>

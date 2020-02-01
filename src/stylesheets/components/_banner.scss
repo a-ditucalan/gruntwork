@@ -1,0 +1,41 @@
+.banner {
+  padding-bottom: 30px;
+
+  background-image: linear-gradient(to bottom, #5bcde7, #569cea);
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 365px;
+  }
+
+  &--title {
+    margin-top: 20px;
+    margin-bottom: 14px;
+  }
+
+  &--btn {
+    padding: 9px 31px;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .banner {
+    padding-top: 56px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  .banner {
+    &__wrapper {
+      padding: 15px 100px;
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .banner {
+    &__wrapper {
+      padding: 8px 16px;
+    }
+  }
+}

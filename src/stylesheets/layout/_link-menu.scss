@@ -1,0 +1,128 @@
+.link-menu-folder {
+  margin-top: 67px;
+  width: 100%;
+  height: 100%;
+
+  &:before {
+    content: "";
+
+    display: block;
+    width: 100%;
+    height: 5px;
+
+    background-image: linear-gradient(271deg, #07a6fd, #1ae5dd);
+  }
+
+  &__wrapper {
+    padding: 0;
+    margin-top: 14px;
+  }
+
+  &__item {
+    padding: 7px 24px;
+
+// margin-bottom: 5px;
+    margin-bottom: 0;
+
+    cursor: pointer;
+            transition: all .2s ease-in-out;
+
+    -webkit-transition: all .2s ease-in-out;
+    list-style: none;
+
+    &--active {
+      .link-menu-folder__link {
+        color: $brand-color;
+      }
+
+      .link-menu-folder__link--text {
+        opacity: 1;
+      }
+    }
+  }
+
+  &__link {
+    position: relative;
+
+    display: block;
+
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: -.2px;
+    line-height: normal;
+    color: #000000;
+
+    font-stretch: normal;
+  }
+
+  &__icon {
+    padding-right: 11px !important;
+  }
+
+  &__link--text {
+    opacity: .4;
+  }
+
+  &__active {
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    padding: 14px 0;
+
+    background-color: #f5f9fa;
+
+    .times {
+      position: absolute;
+      top: 10px;
+      right: 19px;
+    }
+
+    &-item {
+      display: flex;
+      align-items: center;
+
+      &--text {
+        margin-bottom: 0;
+
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        letter-spacing: -.2px;
+        line-height: normal;
+        color: #06a6fd;
+
+        font-stretch: normal;
+      }
+    }
+  }
+}
+
+.preview__link-menu-wrapper {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  z-index: 99;
+
+  display: none;
+  align-items: baseline !important;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+  background: #ffffff;
+}
+
+@include respond-to(md) {
+  .link-menu-folder {
+    margin-top: 54px;
+  }
+}
+
+@include respond-to(sm-down) {
+  .link-menu-folder {
+    margin-top: 56px;
+  }
+}

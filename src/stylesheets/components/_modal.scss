@@ -1,0 +1,115 @@
+.modal {
+  &-header {
+    position: relative;
+
+    padding: 33px 18px !important;
+
+    background-image: linear-gradient(to bottom, #5bcde7, #569cea);
+    border-bottom: none !important;
+
+    .close {
+      position: relative;
+      top: -4px;
+      right: 8px;
+
+      padding: 0;
+      margin: 0;
+
+      font-size: 33px;
+      font-weight: 100;
+      color: $white;
+
+      opacity: 1 !important;
+    }
+  }
+
+  &-content {
+    // top: 108px;
+    // left: -92px;
+    padding-bottom: 13px;
+    width: 684px !important;
+    overflow: auto;
+  }
+
+  &__image {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    margin: 0 auto;
+  }
+
+  .button {
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: -.2px;
+
+    &__holder {
+      display: block;
+      margin: 0 auto;
+
+      font-style: normal;
+      text-align: center;
+    }
+  }
+}
+
+@include respond-to(md-up) {
+  .modal {
+    .subcribe-modal {
+      .modal-content {
+        margin-bottom: 88px;
+      }
+    }
+  }
+}
+
+@include respond-to(sm-up) {
+  .modal {
+    .modal--service {
+      width: 684px;
+      max-width: 100%;
+    }
+  }
+}
+
+@include respond-to(sm-down) {
+  .modal {
+    &-content {
+      position: fixed !important;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+
+      display: block !important;
+      width: 100% !important;
+      max-width: 100%;
+
+      border: none !important;
+      border-radius: 0 !important;
+    }
+
+    &-body {
+      padding: 1rem 12px !important;
+    }
+
+    &-header {
+      padding: 20px 18px !important;
+
+      border-radius: 0 !important;
+
+      .close {
+        top: -3px;
+        right: -2px;
+
+        font-size: 29px;
+      }
+    }
+
+    &__image {
+      max-width: 97px;
+    }
+  }
+}

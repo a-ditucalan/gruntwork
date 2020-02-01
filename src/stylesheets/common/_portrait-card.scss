@@ -1,0 +1,72 @@
+.portrait-card {
+  position: relative;
+
+  &:nth-child(odd) {
+    .portrait-card__wrapper {
+      background-color: #f5f9fa;
+    }
+  }
+
+  &:nth-child(even) {
+    .portrait-card__wrapper {
+      background-color: #fafcfc;
+    }
+  }
+
+  &__wrapper {
+    padding: 6px 17px 6px 11px;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 145px;
+    height: 93%;
+  }
+
+  &__section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__stars {
+    &--holder {
+      display: flex;
+    }
+  }
+
+  &__title {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: .34px;
+    line-height: normal;
+    color: #1e252f;
+
+    opacity: .6;
+  }
+
+  &__description {
+    padding-top: 8px;
+
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: .34px;
+    line-height: normal;
+    color: #1e252f;
+
+    font-stretch: normal;
+  }
+}
+
+@include respond-to(md-down) {
+  .portrait-card {
+    &__section {
+      display: block;
+    }
+
+    &__wrapper {
+      margin-top: 0;
+      margin-bottom: 10px;
+      max-width: 100%;
+    }
+  }
+}

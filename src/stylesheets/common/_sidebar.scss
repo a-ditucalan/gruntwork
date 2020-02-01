@@ -1,0 +1,107 @@
+.sidebar {
+  position: absolute;
+
+  float: left;
+  // padding: 32px 0  32px 32px;
+  padding: 58px 0 32px 32px;
+  width: 264px;
+  height: 100%;
+
+  background: $white;
+
+  overflow-y: auto;
+
+  &::-webkit-scrollbar {
+    width: 0;
+
+    background: transparent;
+  }
+
+  .link--active {
+    a {
+      color: $brand-color;
+      text-decoration: none;
+
+      opacity: 1;
+
+      &:before {
+        opacity: 1;
+      }
+    }
+  }
+
+  &--fixed {
+    position: fixed;
+    top: 0;
+  }
+
+  &__wrapper {
+    padding: 0;
+
+    &--bottom {
+      position: absolute;
+      bottom: 0;
+    }
+  }
+
+  &__item {
+    margin-bottom: 15px;
+
+    cursor: pointer;
+
+    list-style: none;
+  }
+
+  &__link {
+    position: relative;
+
+    font-family: $font-opensans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: -.2px;
+    line-height: normal;
+    color: $black;
+
+    opacity: .4;
+
+    font-stretch: normal;
+
+    &:hover {
+      color: $brand-color;
+      text-decoration: none;
+
+      opacity: 1;
+
+      &:before {
+        opacity: 1;
+      }
+    }
+
+    &:before {
+      content: "• ";
+
+      position: absolute;
+      top: -2px;
+      left: -18px;
+
+      font-size: 18px;
+
+      opacity: 0;
+      transition: all .1s ease-in-out;
+    }
+  }
+}
+
+@media screen and (max-width: 1382px) and (min-width: 1200px) {
+  .sidebar {
+    padding: 57px 0;
+    width: 172px;
+  }
+}
+
+@include respond-to(lg-down) {
+  .sidebar {
+    display: none;
+  }
+}

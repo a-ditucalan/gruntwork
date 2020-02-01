@@ -1,0 +1,26 @@
+<svg width="21" height="19" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icn-locked-code">
+<g id="icn-readme">
+<path id="Rectangle Copy 3" d="M6.75 2C6.75 1.30964 7.30964 0.75 8 0.75H15.6893L19.8839 4.94454C20.1183 5.17896 20.25 5.49691 20.25 5.82843V16C20.25 16.6904 19.6904 17.25 19 17.25H8C7.30964 17.25 6.75 16.6904 6.75 16V2Z" fill="white" stroke="#B9B9B9" stroke-width="1.5"/>
+<path id="Line 3" d="M9.5 4.5H14.5" stroke="#B9B9B9" stroke-linecap="round"/>
+<path id="Line 3_2" d="M9.5 7.5H17.5" stroke="#B9B9B9" stroke-linecap="round"/>
+<path id="Line 3_3" d="M9.5 10.5H17.5" stroke="#B9B9B9" stroke-linecap="round"/>
+<path id="Line 3_4" d="M9.5 13.5H17.5" stroke="#B9B9B9" stroke-linecap="round"/>
+</g>
+<g id="icn-lock">
+<path id="Path" d="M7.71428 12.75C7.71428 10.6789 6.27519 9 4.49999 9C2.72479 9 1.28571 10.6789 1.28571 12.75" stroke="url(#paint0_linear)" stroke-width="1.5"/>
+<rect id="Combined Shape" y="12.125" width="9" height="6.875" rx="1.29024" fill="url(#paint1_linear)"/>
+<path id="Oval" fill-rule="evenodd" clip-rule="evenodd" d="M4.49999 17.125C5.03255 17.125 5.46428 16.7053 5.46428 16.1875C5.46428 15.6697 5.03255 15.25 4.49999 15.25C3.96743 15.25 3.53571 15.6697 3.53571 16.1875C3.53571 16.7053 3.96743 17.125 4.49999 17.125Z" fill="white"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="11.4476" y1="10.875" x2="8.40587" y2="4.81847" gradientUnits="userSpaceOnUse">
+<stop stop-color="#07A6FD"/>
+<stop offset="1" stop-color="#1AE5DD"/>
+</linearGradient>
+<linearGradient id="paint1_linear" x1="14.2267" y1="15.5625" x2="7.84321" y2="5.85644" gradientUnits="userSpaceOnUse">
+<stop stop-color="#07A6FD"/>
+<stop offset="1" stop-color="#1AE5DD"/>
+</linearGradient>
+</defs>
+</svg>

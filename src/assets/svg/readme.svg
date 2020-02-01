@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 15" width="17" height="15">
+	<defs>
+		<image width="17" height="15" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAPCAMAAAA1b9QjAAAAAXNSR0IB2cksfwAAAV9QTFRFG+bcGeTeGeLfGN/fGN7gF9viF9riENbmEM/fFNPnE9DnE87oE8vqEcrrEcfsEMTuEL/qGeTdGeHeGODfFdjiFdfkFtTmFdHmE9DoFM/pEMfrEMXuD8LuEL/vGeLeGN/bAAAAFc/kFNLnE9DoEM7vDMLvD8DwF9/gGNvfFM3nEs/pDLvvDr3xELvvGN3hDbvyDLfzFtriFNffDLr3DLj0FtfjFNPjDLb3DLb1DLPzFdTkFM/jCLb3C7P2DK/zFNLmFM/nCK/3CrH3DK/3FNDnEM/nCLL7Ca75CK77E83pE8zsEMfnEMXvCLX/CK/3Cq78Cav6CKv7EsrqEcnrEcftEMTtD8LvD8DxD77xDrvzDrr2Dbj0DLX2C7L3CrD4Cq75CKr8CKf7EMfqEMXsEMLsEMLvEL/vDb/yDbzzDbjzC7T2C7L0C6/3CK33CKr3CKr8Ban8CKf3DLb0C7T3C7X0EVNlXQAAAHV0Uk5Tv7+/v7+/jx8Qf7+/v7+/vzD/z7+//9/f78+/zv9A/0AAMP/+Hz///kCAf0D/QP//QP9AP/7/QD//QP9AP/9A/0BA/0D/QD//P/9fIB8fIE//QP///////t9/b+///////kBgYGBgYF+v/79gYGBgYF8g794wQ2wFDAAAALdJREFUeJxjYGBkYmZhZWPn4OTi5uHl4xdgEBQSZmEVERUTl5Dk4ZWSlpFlkJNXAAJFJWUVEK2qJsugrgFiKWhqgSltHV0GPYgIFGjrGzAYGiGLGJsYM5iaIYuYW1gyWFkji9jY2jHYOyCLODo5M7i4Iou4uXsweHp5e3v7gHi+fn6+/gGBDEHBIaFh4RGRUdExsXHxAQmJDEnJKalp6RmZFlnZObl5+QWFDFADiophRsFESkpgIgDE4izVCtAtZgAAAABJRU5ErkJggg=="/>
+		<image width="2" height="13" id="img2" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAANCAYAAACD4L/xAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABMSURBVHgBJYqBDYBACANLxRHcw9WcxL2cwy2IIH1ISJu72vG8ZwDw2v22IFiYIz6FdSGBVEmgUqokumRZE44S5Ygea1iLSPU7YrskfwsnGf/WLBsYAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Background" href="#img1" x="0" y="0" />
+	<use id="Shape (1)" href="#img2" transform="matrix(1,0,0,1,7,0)"/>
+</svg>

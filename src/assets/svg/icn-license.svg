@@ -1,0 +1,16 @@
+<svg width="11" height="17" viewBox="0 0 11 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icn-license">
+<path id="Shape" d="M8 10V16L5 14.7014L2 16V10.0407" stroke="url(#paint0_linear)" stroke-width="1.2"/>
+<path id="Star" fill-rule="evenodd" clip-rule="evenodd" d="M5 10.8124L3.45492 11.1455L2.39318 9.9315L0.954915 9.25648L0.782075 7.62531L0 6.2L0.782075 4.77469L0.954915 3.14352L2.39318 2.4685L3.45492 1.25451L5 1.58761L6.54508 1.25451L7.60682 2.4685L9.04508 3.14352L9.21793 4.77469L10 6.2L9.21793 7.62531L9.04508 9.25648L7.60682 9.9315L6.54508 11.1455L5 10.8124Z" stroke="url(#paint1_linear)" stroke-width="1.2"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="11.4845" y1="13" x2="5.48447" y2="6.03107" gradientUnits="userSpaceOnUse">
+<stop stop-color="#07A6FD"/>
+<stop offset="1" stop-color="#1AE5DD"/>
+</linearGradient>
+<linearGradient id="paint1_linear" x1="15.8074" y1="6.2" x2="5.35455" y2="-5.47396" gradientUnits="userSpaceOnUse">
+<stop stop-color="#07A6FD"/>
+<stop offset="1" stop-color="#1AE5DD"/>
+</linearGradient>
+</defs>
+</svg>

@@ -1,0 +1,15 @@
+<svg width="15" height="18" viewBox="0 0 15 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icn-readme-folder">
+<path id="Rectangle Copy 3" d="M0.75 2C0.75 1.30964 1.30964 0.75 2 0.75H9.68934L13.8839 4.94454C14.1183 5.17896 14.25 5.49691 14.25 5.82843V16C14.25 16.6904 13.6904 17.25 13 17.25H2C1.30964 17.25 0.75 16.6904 0.75 16V2Z" fill="white" stroke="url(#paint0_linear)" stroke-width="1.5"/>
+<path id="Line 3" d="M3.5 4.5H8.5" stroke="#06A6FD" stroke-linecap="round"/>
+<path id="Line 3_2" d="M3.5 7.5H11.5" stroke="#06A6FD" stroke-linecap="round"/>
+<path id="Line 3_3" d="M3.5 10.5H11.5" stroke="#06A6FD" stroke-linecap="round"/>
+<path id="Line 3_4" d="M3.5 13.5H11.5" stroke="#06A6FD" stroke-linecap="round"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="23.7112" y1="9" x2="5.51877" y2="-8.60855" gradientUnits="userSpaceOnUse">
+<stop stop-color="#07A6FD"/>
+<stop offset="1" stop-color="#1AE5DD"/>
+</linearGradient>
+</defs>
+</svg>

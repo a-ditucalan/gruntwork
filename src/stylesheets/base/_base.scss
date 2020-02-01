@@ -1,0 +1,150 @@
+*, *:before, *:after {
+  margin: 0;
+
+  box-sizing: border-box;
+}
+
+a, button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn, a {
+          transition: all .2s ease-in-out;
+
+  -webkit-transition: all .2s ease-in-out;
+  @include on-event {
+    outline: 0;
+    box-shadow: none;
+  }
+}
+
+.rectangle {
+  width: 100%;
+  height: 8px;
+
+  background-image: linear-gradient(271deg, #07a6fd, #1ae5dd);
+}
+
+.d-flex-filter {
+  display: flex !important;
+  margin-bottom: 16px;
+  max-height: 100% !important;
+
+  opacity: 1 !important;
+}
+
+.filter-height {
+  height: 85px !important;
+}
+
+.modal-header {
+  span {
+    &:hover {
+      color: #00b9f8;
+    }
+  }
+}
+/**
+ * Basic styles for input fields
+ */
+input[type="email"], input[type="password"], input[type="text"] {
+  outline: none;
+
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  -webkit-focus-ring-color: none;
+  @include on-event {
+    box-shadow: none;
+  }
+}
+
+input, select, button, textarea {
+  outline: none;
+
+  // @include appearance(none);
+
+  &::-webkit-outer-spin-button, &::-webkit-inner-spin-button {
+    @include appearance(none);
+  }
+}
+.custom-container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+}
+
+.filter--open {
+  img {
+    transform: rotate(180deg);
+  }
+}
+
+.modal-fix {
+  overflow-y: hidden !important;
+}
+
+.cardbox-pad {
+  padding-bottom: 20px !important;
+}
+
+@media only screen and (min-width: 1200px) {
+  .custom-container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    max-width: 1215px;
+  }
+}
+
+.scroll-lock {
+  position: fixed;
+
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.modal-open {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+}
+
+@include respond-to(lg) {
+  main {
+    padding-top: 67px;
+  }
+}
+
+@include respond-to(md-up) {
+  .filter-opacity {
+    margin: 20px 24px !important;
+
+    opacity: 1 !important;
+  }
+}
+@include respond-to(md) {
+  main {
+    padding-top: 55px;
+  }
+}
+
+@media only screen and(max-width: 767px) {
+  .dnone {
+    display: none;
+  }
+}

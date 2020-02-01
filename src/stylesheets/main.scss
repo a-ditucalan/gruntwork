@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+// Configuration and helpers
+@import "utils/variables", "utils/functions", "utils/mixins";
+
+// Base stuff
+@import "base/base", "base/fonts", "base/typography";
+
+// Layout-related sections
+@import "layout/header", "layout/footer", "layout/link-menu";
+
+// Components
+@import "components/buttons", "components/card", "components/banner", "components/modal";
+
+// Page-specific styles
+@import "pages/home", "pages/about", "pages/service-catalog",
+  "pages/service-detail";
+
+//Common styles
+@import "common/section-cta", "common/sidebar", "common/details",
+  "common/common-checkbox.scss", "common/breadcrumb.scss",
+  "common/sidebar-link-folders.scss", "common/preview.scss", "common/service-modal",
+  "common/portrait-card.scss", "common/subscribe.scss";

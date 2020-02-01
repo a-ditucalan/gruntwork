@@ -1,0 +1,113 @@
+.common-checkbox--text {
+  position: relative;
+
+  display: block;
+  padding-left: 35px;
+
+  font-family: $font-opensans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+
+/* identical to box height */
+  letter-spacing: -.228571px;
+  line-height: 22px;
+
+// color: #8f9fa7;
+  color: #7c7e7e;
+
+  cursor: pointer;
+
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  mix-blend-mode: normal;
+
+  input {
+    position: absolute;
+
+    width: 0;
+    height: 0;
+
+    opacity: 0;
+    cursor: pointer;
+  }
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 3px;
+  left: 0;
+
+  width: 18px;
+  height: 18px;
+
+// background-color: #eeeeee;
+
+  border: solid 2px #7b7d7e;
+  border-radius: 2px;
+}
+
+/* On mouse-over, add a grey background color */
+// .common-checkbox--text:hover input ~ .checkmark {
+//   background-color: #cccccc;
+// }
+
+/* When the checkbox is checked, add a blue background */
+.common-checkbox--text input:checked ~ .checkmark {
+  background-color: #06a6fd;
+  border: none;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+
+  position: absolute;
+
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.common-checkbox--text input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.common-checkbox--text .checkmark:after {
+  top: 13%;
+  left: 38.5%;
+
+  width: 6px;
+  height: 11px;
+
+  border: solid white;
+  border-width: 0 2px 2px 0;
+
+          transform: rotate(45deg);
+
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+}
+
+@media only screen and (max-width: 767px) {
+  .common-checkbox--text {
+    padding-left: 25px;
+    margin-bottom: 16px;
+
+    font-size: 16px;
+
+    .checkmark {
+      top: 0;
+
+      width: 20px;
+      height: 20px;
+      &:after {
+        top: 2px;
+        left: 7px;
+      }
+    }
+  }
+}

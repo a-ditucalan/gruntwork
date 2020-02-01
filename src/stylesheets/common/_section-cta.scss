@@ -1,0 +1,152 @@
+.cta__section {
+  text-align: center;
+
+  .cta__image--absolute {
+    position: relative;
+    top: -21px;
+  }
+
+  .cta__title {
+    margin: 0 auto;
+    width: 100%;
+
+    font-family: $font-opensans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: .79px;
+    line-height: 1.43;
+    color: #1e252f;
+    text-align: center;
+  }
+
+  .cta__description {
+    margin: 10px auto 0;
+    width: 100%;
+    max-width: 476px;
+
+    font-family: $font-opensans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: .45px;
+    line-height: 1.38;
+    color: #1e252f;
+    text-align: center;
+  }
+
+  .cta__button--holder {
+    display: block;
+    margin: 0 auto;
+
+    text-align: center;
+  }
+}
+
+.cta__background--blue-a {
+  position: relative;
+
+  padding-top: 41px;
+  padding-bottom: 49px;
+
+  background-image: linear-gradient(to bottom, #5bcde7, #569cea);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .cta__title-holder {
+    padding-top: 42px;
+  }
+
+  .cta__title {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 517px;
+
+    font-family: $font-opensans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: -.26px;
+    line-height: normal;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  .cta__button--holder {
+    padding-top: 24px;
+  }
+}
+
+.cta__background--blue-b {
+  position: relative;
+
+  padding-top: 0;
+  padding-bottom: 60px;
+
+  background-image: url("../assets/images/bg-blue-b.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .cta__button--holder {
+    padding-top: 43px;
+  }
+
+  .cta__title {
+    width: 100%;
+    max-width: 604px;
+
+    font-family: $font-opensans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: .98px;
+    line-height: normal;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  .button--white {
+    padding: 14px 37px;
+  }
+}
+
+.cta__background--white {
+  padding-top: 82px;
+  padding-bottom: 99px;
+
+  .cta__text--holder {
+    margin-top: 25px;
+  }
+
+  .cta__title {
+    font-weight: 500;
+  }
+
+  .cta__button--holder {
+    padding-top: 20px;
+  }
+
+  .cta__title-holder {
+    padding-top: 26px;
+  }
+}
+
+@include respond-to(sm-down) {
+  .cta {
+    &__section {
+      .cta__title {
+        font-size: 25px;
+      }
+
+      .cta__description {
+        font-size: 14px;
+      }
+    }
+
+    &__background--blue-b {
+      .cta__title {
+        font-size: 25px;
+      }
+    }
+  }
+}
